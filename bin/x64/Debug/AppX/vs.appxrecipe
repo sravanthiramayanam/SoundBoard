@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-T27U2DTT</Machine>
+    <WindowsUser>srava</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>228129e1-4783-4afe-8073-24a4848f9fc9</PackageIdentityName>
+    <PackageIdentityPublisher>CN=srava</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>EF69D634A1903CBDD98475E4083AC35A7A2F6BDAA30824F376D89A9C75837A20</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>228129e1-4783-4afe-8073-24a4848f9fc9_1.0.0.0_x64__407cdtcxjx2xr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>228129e1-4783-4afe-8073-24a4848f9fc9_407cdtcxjx2xr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>228129e1-4783-4afe-8073-24a4848f9fc9</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=srava</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-28T20:27:07.874</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\bin\x64\Debug\SoundBoard.exe">
+      <PackagePath>entrypoint\SoundBoard.exe</PackagePath>
+      <Modified>2022-10-28T20:27:06.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2022-06-11T05:23:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2020-12-02T11:52:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Audio\Animals\cat.wav">
+      <PackagePath>Assets\Audio\Animals\cat.wav</PackagePath>
+      <Modified>2022-10-24T06:22:08.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Audio\Animals\cow..wav">
+      <PackagePath>Assets\Audio\Animals\cow..wav</PackagePath>
+      <Modified>2022-10-24T06:22:08.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Audio\Cartoons\gun.wav">
+      <PackagePath>Assets\Audio\Cartoons\gun.wav</PackagePath>
+      <Modified>2022-10-24T06:22:08.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Audio\Warnings\alaram.wav">
+      <PackagePath>Assets\Audio\Warnings\alaram.wav</PackagePath>
+      <Modified>2022-10-24T06:22:08.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Audio\Warnings\siren.wav">
+      <PackagePath>Assets\Audio\Warnings\siren.wav</PackagePath>
+      <Modified>2022-10-24T06:22:08.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Audio\Cartoons\spring.wav.mp3">
+      <PackagePath>Assets\Audio\Cartoons\spring.wav.mp3</PackagePath>
+      <Modified>2022-10-24T06:22:08.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Icons\animals.png.png">
+      <PackagePath>Assets\Icons\animals.png.png</PackagePath>
+      <Modified>2022-10-24T06:22:07.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Images\Animals\cat.png">
+      <PackagePath>Assets\Images\Animals\cat.png</PackagePath>
+      <Modified>2022-10-26T17:04:12.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Images\Animals\cow.png">
+      <PackagePath>Assets\Images\Animals\cow.png</PackagePath>
+      <Modified>2022-10-26T17:04:12.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Images\Cartoons\gun.png">
+      <PackagePath>Assets\Images\Cartoons\gun.png</PackagePath>
+      <Modified>2022-10-26T18:46:56.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Images\Cartoons\spring.png">
+      <PackagePath>Assets\Images\Cartoons\spring.png</PackagePath>
+      <Modified>2022-10-26T18:46:56.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Images\Warnings\alaram.png">
+      <PackagePath>Assets\Images\Warnings\alaram.png</PackagePath>
+      <Modified>2022-10-26T18:47:29.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Images\Warnings\siren.png">
+      <PackagePath>Assets\Images\Warnings\siren.png</PackagePath>
+      <Modified>2022-10-26T18:47:29.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2022-10-06T19:19:44.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-06T19:19:44.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-06T19:19:44.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-06T19:19:44.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-06T19:19:44.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-06T19:19:44.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-06T19:19:44.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Icons\cartoons.png.jpg">
+      <PackagePath>Assets\Icons\cartoons.png.jpg</PackagePath>
+      <Modified>2022-10-24T06:22:07.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Assets\Icons\warnings.png.jpg">
+      <PackagePath>Assets\Icons\warnings.png.jpg</PackagePath>
+      <Modified>2022-10-24T06:22:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2022-10-15T23:27:11.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\bin\x64\Debug\SoundBoard.xr.xml">
+      <PackagePath>SoundBoard.xr.xml</PackagePath>
+      <Modified>2022-10-26T18:42:49.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2022-10-28T20:27:06.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2022-10-28T20:27:06.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2020-12-02T09:52:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2022-10-26T19:27:28.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\srava\source\repos\Kalclasses\SoundBoard\SoundBoard\bin\x64\Debug\Core\SoundBoard.exe">
+      <PackagePath>SoundBoard.exe</PackagePath>
+      <Modified>2022-10-28T20:27:07.850</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

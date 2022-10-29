@@ -122,6 +122,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\ObservableCollection.cs" />
+    <Compile Include="Model\Sound.cs" />
+    <Compile Include="Model\SoundManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +133,21 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Audio\Animals\cat.wav" />
+    <Content Include="Assets\Audio\Animals\cow..wav" />
+    <Content Include="Assets\Audio\Cartoons\gun.wav" />
+    <Content Include="Assets\Audio\Cartoons\spring.wav.mp3" />
+    <Content Include="Assets\Audio\Warnings\alaram.wav" />
+    <Content Include="Assets\Audio\Warnings\siren.wav" />
+    <Content Include="Assets\Icons\animals.png.png" />
+    <Content Include="Assets\Icons\cartoons.png.jpg" />
+    <Content Include="Assets\Icons\warnings.png.jpg" />
+    <Content Include="Assets\Images\Animals\cat.png" />
+    <Content Include="Assets\Images\Animals\cow.png" />
+    <Content Include="Assets\Images\Cartoons\gun.png" />
+    <Content Include="Assets\Images\Cartoons\spring.png" />
+    <Content Include="Assets\Images\Warnings\alaram.png" />
+    <Content Include="Assets\Images\Warnings\siren.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -154,6 +172,7 @@
       <Version>6.2.14</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
